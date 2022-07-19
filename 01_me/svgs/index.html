@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>SVGs</title>
+  </head>
+  <body>
+    <div>
+      <svg width="800" height="500">
+        <g>
+          <rect class="bar" x="0" y="100" width="200" height="50"></rect>
+          <circle cx="250" cy="300" r="20"></circle>
+        </g>
+
+        <line
+          x1="0"
+          y1="0"
+          x2="450"
+          y2="330"
+          stroke="black"
+          stroke-width="10"
+        ></line>
+
+        <path
+          d="M20,230 Q40,205 50,230 T90,230"
+          fill="none"
+          stroke="blue"
+          stroke-width="5"
+        />
+      </svg>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
